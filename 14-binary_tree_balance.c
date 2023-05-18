@@ -3,11 +3,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - finds the tree heights
+ * binary_tree_height_x - finds the tree heights
  * @tree: where to find height
  * Return: tree height
  */
-int binary_tree_balance(const binary_tree_t *tree)
+int binary_tree_height_x(const binary_tree_t *tree)
 {
 	int left_height, right_height;
 
